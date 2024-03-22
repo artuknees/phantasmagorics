@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    margin-bottom: 58px;
+    background-image: url("/assets/background-image/1.png") ;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    
+}
+.logo img{
+    width: 25%;
+}
+footer{
+    text-align: center;
+    flex: 1;
+    margin-bottom: 65px;
+    width: 100%;
+}
+.contact-us{
+    font-size: 16px;
+}
+a, a:visited, a:active, a:hover{
+    color: white;
+    text-decoration: none;
+    font-family: "WorkSans-Light";
+}
+p{
+    font-family: 'WorkSans-Light';
+    font-size: 11px;
+    color: white;
+}

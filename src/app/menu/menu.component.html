@@ -1,0 +1,38 @@
+<div class="menu-box">
+    <button class="menu-button" (click)="openMenu()" style="border: none; background: none;">
+        <img src="./assets/menu.png">
+    </button>
+    <div class="menu" #menu>
+        <div class="menu-header">
+            <div class="menu-logo-box">
+                <a href="">
+                    <img src="./assets/diseño/hola-polenta-logo.png" alt="Logo Polenta" />
+                </a>
+            </div>
+        </div>
+        <div class="menu-body">
+            <nav>
+                <ol>
+                    <hr />
+                    <li>
+                        <a class="menu-list-item" href="#entradas" (click)="closeMenu()">Tickets</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a class="menu-list-item" href="#momentos-polenta" (click)="closeMenu()">Momentos
+                            Polenta*</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a class="menu-list-item" href="#puestas-header" (click)="closeMenu()">Puestas</a>
+                    </li>
+                    <hr />
+                    <li>
+                        <a class="menu-list-item info" href="#info-polenta" (click)="closeMenu()">¿Que C#&% es la
+                            Polenta*?</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
