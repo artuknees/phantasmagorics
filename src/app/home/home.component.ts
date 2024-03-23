@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +9,7 @@ export class HomeComponent implements AfterViewInit {
   @ViewChild('main')
   main!: ElementRef;
 
-  imageUrls: string[] = [
+  desktopImageUrls: string[] = [
     'url(/assets/desktop-background/1.png)',
     'url(/assets/desktop-background/2.png)',
     'url(/assets/desktop-background/3.png)',
@@ -17,14 +17,40 @@ export class HomeComponent implements AfterViewInit {
     'url(/assets/desktop-background/5.png)',
     'url(/assets/desktop-background/6.png)',
   ];
+  mobileImageUrls: string[] = [
+    'url(/assets/mobile-background/1.png)',
+    'url(/assets/mobile-background/2.png)',
+    'url(/assets/mobile-background/3.png)',
+    'url(/assets/mobile-background/4.png)',
+    'url(/assets/mobile-background/5.png)',
+  ];
 
   ngAfterViewInit() {
-    this.changeImg();
+    this.chekScreenWidth();
+  }
+  
+  chekScreenWidth() {
+    if (window.innerWidth > 600) {
+      this.changeDesktopImg();
+    } else {
+      this.changeMobileImg();
+    }
   }
 
-  changeImg() {
-    let index = Math.floor((Math.random() * 10) % this.imageUrls.length);
-    this.main.nativeElement.style.backgroundImage = this.imageUrls[index];
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.chekScreenWidth();
+  }
+
+  changeDesktopImg() {
+    let index = Math.floor((Math.random() * 10) % this.desktopImageUrls.length);
+    this.main.nativeElement.style.backgroundImage = this.desktopImageUrls[index];
+
+    console.log(index);
+  }
+  changeMobileImg() {
+    let index = Math.floor((Math.random() * 10) % this.mobileImageUrls.length);
+    this.main.nativeElement.style.backgroundImage = this.mobileImageUrls[index];
 
     console.log(index);
   }
