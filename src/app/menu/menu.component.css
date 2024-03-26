@@ -27,7 +27,7 @@
 .menu.open {
     display: flex;
     transform: translateY(0%);
-    opacity: .75;
+    opacity: .87;
 }
 .menu.close {
     display: none;

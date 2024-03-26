@@ -1,0 +1,15 @@
+.projects-container{
+    padding: 10%;
+}
+.thumbnails-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+    margin: 10px;
+}
+.thumbnail img{
+    max-width: 100%;
+}
