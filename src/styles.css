@@ -22,3 +22,7 @@ body {
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'work sans';
+    src: url('./assets/fonts/WorkSans-Regular.ttf') format('truetype');
+  }
