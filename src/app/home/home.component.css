@@ -44,7 +44,7 @@ footer{
     width: 100%;
 }
 .contact-us{
-    font-size: 16px;
+    display: none;
 }
 a, a:visited, a:active, a:hover{
     color: white;
@@ -67,5 +67,9 @@ p{
     .logo-desktop{
         display: block;
         width: 100%;
+    }
+    .contact-us{
+        display: block;
+        font-size: 16px;
     }
 }
