@@ -6,7 +6,8 @@
 }
 .swiper{
     display: flex;
-    max-width: 40%;
+    max-width: 75%;
+    height: 80vh;
     overflow: hidden;
 }
 .swiper-wrapper{
@@ -15,7 +16,19 @@
 .gallery-img{
     display: flex;
     width: 100%;
+    height: auto;
 }
 .swiper-slide{
     max-width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .swiper{
+        max-width: 80%;
+        height: 80vh;
+    }
+    .gallery-img{
+        display: block;
+        height: 100%;
+        width: auto;
+    }
 }
