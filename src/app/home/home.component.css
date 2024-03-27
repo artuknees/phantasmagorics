@@ -17,12 +17,20 @@ header{
     width: 100%;
     
 }
+.logo{
+    display: flex;
+    width: 50%;
+}
+.logo a{
+    display: block;
+    width: 100%;
+}
 .logo-desktop{
     display: none;
-    width: 25%;
 }
 .logo-mobile{
-    width: 50%;
+    display: block;
+    width: 100%;
 }
 .content{
     height: 100vh;
@@ -41,18 +49,23 @@ footer{
 a, a:visited, a:active, a:hover{
     color: white;
     text-decoration: none;
-    font-family: "WorkSans-Light";
 }
 p{
-    font-family: 'WorkSans-Light';
     font-size: 11px;
     color: white;
 }
 @media only screen and (min-width: 600px) {
+    main{
+        padding: 6% 6% 3%;
+    }
+    .logo{
+        width: 15%;
+    }
     .logo-mobile{
         display: none;
     }
     .logo-desktop{
-        display: flex;
+        display: block;
+        width: 100%;
     }
 }

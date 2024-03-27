@@ -1,1 +1,11 @@
 <p>project-hotel works!</p>
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let image of hotelImages">
+            <img class="gallery-img" [src]="image" alt="Hotel Somewhere img" loading="lazy">
+            <div class="swiper-lazy-preloader"></div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>

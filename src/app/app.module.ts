@@ -26,7 +26,7 @@ import { ProjectStatusComponent } from './proyects/project-status/project-status
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
