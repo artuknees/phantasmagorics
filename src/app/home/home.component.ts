@@ -10,19 +10,28 @@ export class HomeComponent implements AfterViewInit {
   main!: ElementRef;
 
   desktopImageUrls: string[] = [
-    'url(/assets/desktop-background/1.png)',
-    'url(/assets/desktop-background/2.png)',
-    'url(/assets/desktop-background/3.png)',
-    'url(/assets/desktop-background/4.png)',
-    'url(/assets/desktop-background/5.png)',
-    'url(/assets/desktop-background/6.png)',
+    'url(/assets/desktop-background/1.jpg)',
+    'url(/assets/desktop-background/2.jpg)',
+    'url(/assets/desktop-background/3.jpg)',
+    'url(/assets/desktop-background/4.jpg)',
+    'url(/assets/desktop-background/5.jpg)',
+    'url(/assets/desktop-background/6.jpg)',
+    'url(/assets/desktop-background/7.jpg)',
+    'url(/assets/desktop-background/8.jpg)',
+    'url(/assets/desktop-background/9.jpg)',
+    'url(/assets/desktop-background/10.jpg)',
   ];
   mobileImageUrls: string[] = [
-    'url(/assets/mobile-background/1.png)',
-    'url(/assets/mobile-background/2.png)',
-    'url(/assets/mobile-background/3.png)',
-    'url(/assets/mobile-background/4.png)',
-    'url(/assets/mobile-background/5.png)',
+    'url(/assets/mobile-background/1.jpg)',
+    'url(/assets/mobile-background/2.jpg)',
+    'url(/assets/mobile-background/3.jpg)',
+    'url(/assets/mobile-background/4.jpg)',
+    'url(/assets/mobile-background/5.jpg)',
+    'url(/assets/mobile-background/6.jpg)',
+    'url(/assets/mobile-background/7.jpg)',
+    'url(/assets/mobile-background/8.jpg)',
+    'url(/assets/mobile-background/9.jpg)',
+    'url(/assets/mobile-background/10.jpg)',
   ];
 
   ngAfterViewInit() {

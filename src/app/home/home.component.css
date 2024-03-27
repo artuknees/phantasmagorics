@@ -58,6 +58,10 @@ p{
     main{
         padding: 6% 6% 3%;
     }
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .logo{
         width: 15%;
     }

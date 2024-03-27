@@ -11,6 +11,7 @@ import { Project141w85Component } from './proyects/project141w85/project141w85.c
 import { Project301w118Component } from './proyects/project301w118/project301w118.component';
 import { ProjectHotelComponent } from './proyects/project-hotel/project-hotel.component';
 import { ProjectStatusComponent } from './proyects/project-status/project-status.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProjectStatusComponent } from './proyects/project-status/project-status
     Project141w85Component,
     Project301w118Component,
     ProjectHotelComponent,
-    ProjectStatusComponent
+    ProjectStatusComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
