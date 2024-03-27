@@ -1,0 +1,21 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+    display: flex;
+    max-width: 40%;
+    overflow: hidden;
+}
+.swiper-wrapper{
+    display: flex;
+}
+.gallery-img{
+    display: flex;
+    width: 100%;
+}
+.swiper-slide{
+    max-width: 100%;
+}

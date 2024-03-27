@@ -1,1 +1,11 @@
 <p>project-status works!</p>
+<div class="swiper" oncontextmenu="return false;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let image of statusImages">
+            <img class="gallery-img" [src]="image" alt="Status Quo img" loading="lazy">
+            <div class="swiper-lazy-preloader"></div>
+        </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
