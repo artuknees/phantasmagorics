@@ -1,9 +1,11 @@
+
 .menu-box{
     display: flex;
     width: 65%;
 }
 .menu-button img{
     max-width: 100%;
+    cursor: pointer;
 }
 .menu{
     display: none;
@@ -12,7 +14,7 @@
     width: 100%;
     height: 100vh;
     align-items: center;
-    background-color: rgba(82,60,242,255);
+    background-color: #002FA7;
     position: absolute;
     top: 0;
     left: 0;
@@ -50,7 +52,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 30% 0 0 10%;
 }
 .menu-list-item {
     display: block;
