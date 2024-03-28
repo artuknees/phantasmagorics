@@ -39,6 +39,8 @@ export class MenuComponent {
     menu.style.display = 'none';
     menu.classList.remove('open', 'close');
     document.body.style.overflow = 'auto';
+    const button = this.buttonRef.nativeElement as HTMLElement;
+    button.style.visibility = 'visible';
   }
 
 }
