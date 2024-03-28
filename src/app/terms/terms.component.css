@@ -24,3 +24,8 @@ a{
     color: white;
     text-decoration: underline;
 }
+@media only screen and (min-width: 600px) {
+    .p-container{
+        width: 800px;
+    }
+}
