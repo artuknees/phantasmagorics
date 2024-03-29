@@ -1,7 +1,8 @@
 
 .menu-box{
     display: flex;
-    width: 65%;
+    width: 40%;
+    margin-bottom: 30%;
 }
 .menu-button img{
     max-width: 100%;
@@ -89,5 +90,8 @@ hr{
 @media screen and (orientation: landscape) {
     .colapse-button-box{
       margin: 2% 7% 7% 0%;
+    }
+    .menu-box{
+        width: 45%;
     }
   }

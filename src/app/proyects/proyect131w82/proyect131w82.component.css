@@ -32,11 +32,18 @@
 }
 h1, h2, h3, p{
     color: #002FA7;
-    text-align: justify;
+    text-align: center;
     width: 80%;
+    font-family: work sans;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
 }
 h3{
-    text-align: center;
+    margin-bottom: 41px;
+    margin-top: 10px;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 600px) {
@@ -48,5 +55,16 @@ h3{
         display: block;
         height: 100%;
         width: auto;
+    }
+    .project-text{
+        max-width: 800px;
+    }
+    h1, h2, h3{
+        font-size: 22px;
+        width: 100%
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 40px;
     }
 }

@@ -52,9 +52,17 @@ header{
         display: none;
     }
     .thumbnails-container{
+        flex-direction: column;
+    }
+    .first-row{
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-between;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
     .thumbnail{
         width: 385px;
