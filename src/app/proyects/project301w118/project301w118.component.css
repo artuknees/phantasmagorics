@@ -4,18 +4,49 @@
     justify-content: center;
     align-items: center;
 }
+.title{
+    margin-top: 30%;
+}
 .swiper{
     display: flex;
-    max-width: 40%;
+    max-width: 80%;
     overflow: hidden;
+    margin: 100px 0 70px 0;
 }
 .swiper-wrapper{
     display: flex;
 }
 .gallery-img{
-    display: flex;
+    display: block;
     width: 100%;
+    height: 100%;
 }
 .swiper-slide{
     max-width: 100%;
+}
+.project-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2, h3, p{
+    color: #002FA7;
+    text-align: justify;
+    width: 80%;
+}
+h3{
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .swiper{
+        max-width: 80%;
+        height: 80vh;
+    }
+    .gallery-img{
+        display: block;
+        height: 100%;
+        width: auto;
+    }
 }
