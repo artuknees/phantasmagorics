@@ -59,7 +59,7 @@ p{
 }
 @media only screen and (min-width: 600px) {
     main{
-        padding: 6% 6% 3%;
+        padding: 4% 6% 3%;
     }
     header{
         flex-direction: row;
@@ -80,5 +80,15 @@ p{
         font-size: 14px;
         font-family: work sans;
         font-weight: 400;
+    }
+    footer{
+        margin-bottom: -1.5vw;
+    }
+    footer p{
+        margin-bottom: -2px;
+    }
+    footer a{
+        margin-top: -1px;
+        font-size: 10px;
     }
 }
