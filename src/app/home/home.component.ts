@@ -46,10 +46,6 @@ export class HomeComponent implements AfterViewInit {
     }
   }
 
-  @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
-    this.chekScreenWidth();
-  }
 
   changeDesktopImg() {
     let index = Math.floor((Math.random() * 10) % this.desktopImageUrls.length);

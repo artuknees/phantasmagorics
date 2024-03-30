@@ -16,7 +16,7 @@ export class Proyect131w82Component implements AfterViewInit{
     autoplay: false,
     slidesPerView: 1,
     spaceBetween: 50,
-    loop: true,
+    centeredSlides: true,
     watchOverflow: false,
     lazyPreloadPrevNext: 2,
     navigation: {
@@ -36,17 +36,17 @@ export class Proyect131w82Component implements AfterViewInit{
   }
 
   images: string[] = [
-    './assets/hotel/1.png',
-    './assets/hotel/2.png',
-    './assets/hotel/3.png',
-    './assets/hotel/4.png',
-    './assets/hotel/5.png',
-    './assets/hotel/6.png',
-    './assets/hotel/7.png',
-    './assets/hotel/8.png',
-    './assets/hotel/9.png',
-    './assets/hotel/10.png',
-    './assets/hotel/11.png',
+    './assets/131/1.png',
+    './assets/131/2.png',
+    './assets/131/3.png',
+    './assets/131/4.png',
+    './assets/131/5.png',
+    './assets/131/6.png',
+    './assets/131/7.png',
+    './assets/131/8.png',
+    './assets/131/9.png',
+    './assets/131/10.png',
+    './assets/131/11.png',
 
   ]
 

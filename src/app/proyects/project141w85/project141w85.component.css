@@ -50,11 +50,20 @@ h3{
         max-width: 80%;
         height: 80vh;
     }
-    .gallery-img{
-        display: block;
-        height: 100%;
-        width: auto;
+    .title{
+        font-size: 21px;
     }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .swiper-slide img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Ajustar la imagen dentro del contenedor manteniendo la relación de aspecto */
+      }
     .project-text{
         max-width: 800px;
     }
@@ -63,7 +72,6 @@ h3{
     }
     p{
         font-size: 14px;
-        width: 100%;
         margin-bottom: 40px;
     }
 }
