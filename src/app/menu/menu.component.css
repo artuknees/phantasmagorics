@@ -91,7 +91,19 @@ hr{
     .colapse-button-box{
       margin: 2% 7% 7% 0%;
     }
+    .menu-header{
+        display: block;
+        width: 22.5%;
+        padding: 10% 10% 5%;
+    }
     .menu-box{
-        width: 45%;
+        width: 40%;
+    }
+    .menu-body{
+        margin-left: 20%;
+    }
+    hr{
+        width: 103px;
+        margin: -1% 0 8% 0;
     }
   }

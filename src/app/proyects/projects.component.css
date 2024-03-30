@@ -51,19 +51,13 @@ header{
     .projects-menu{
         display: none;
     }
-    .thumbnails-container{
-        flex-direction: column;
-    }
-    .first-row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .second-row{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
+    .thumbnails-container {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 40px 60px;
+      }
     .thumbnail{
         width: 385px;
         height: 235px;
