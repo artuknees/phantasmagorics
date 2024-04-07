@@ -19,13 +19,6 @@ header{
 a{
     display: block;
 }
-h1{
-    margin-bottom: 100px;
-    font-family: work sans;
-    font-weight: 400;
-    font-size: 18px;
-    color: #002FA7;
-}
 @media only screen and (min-width: 600px) {
     .projects-container{
         padding-top: 5vw;
@@ -59,9 +52,6 @@ h1{
         color: #002FA7;
         text-decoration: none;
         font-family: work sans;
-    }
-    h1{
-        display: none;
     }
     .projects-menu{
         display: none;

@@ -7,20 +7,19 @@ import { Component, ElementRef, ViewChild, Input } from '@angular/core';
 })
 export class MenuComponent {
   @Input() menuImageUrl = '';
+  @Input() isWhiteText = false;
   @ViewChild('menu') menuRef!: ElementRef;
   @ViewChild('homeButton') buttonRef!: ElementRef;
 
   openMenu(): void {
-    console.log('clicked')
-    // const menu = this.menuRef.nativeElement as HTMLElement;
-    // menu.style.display = 'flex';
-    // setTimeout(() => {
-    //   menu.classList.add('open');
-    //   document.body.style.overflow = 'hidden';
-    // }, 0);
-    // const button = this.buttonRef.nativeElement as HTMLElement;
-    // button.style.visibility = 'hidden';
-    // console.log('button clicked');
+    const menu = this.menuRef.nativeElement as HTMLElement;
+    menu.style.display = 'flex';
+    setTimeout(() => {
+      menu.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }, 0);
+    const button = this.buttonRef.nativeElement as HTMLElement;
+    button.style.visibility = 'hidden';
   }
 
   collapseMenu(): void {
@@ -33,7 +32,6 @@ export class MenuComponent {
     }, 1000);
     const button = this.buttonRef.nativeElement as HTMLElement;
     button.style.visibility = 'visible';
-    console.log('collapsed');
   }
 
   closeMenu(): void {

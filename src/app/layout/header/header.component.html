@@ -1,9 +1,9 @@
 <header
-  class="flex flex-row w-full items-center justify-between relative"
+  class="flex flex-row w-full items-center justify-between"
   [ngClass]="{'text-phantasmagorics-white': isWhiteText, 'text-phantasmagorics-blue': !isWhiteText}"
-  >
-  <app-menu [menuImageUrl]="menuImageUrl"/>
-  <div class="w-[280px] z-10 absolute top-0 left-1/2 transform -translate-x-1/2">
+>
+  <app-menu [menuImageUrl]="menuImageUrl" [isWhiteText]="isWhiteText"/>
+  <div class="w-[280px] z-10 absolute top-[50px] left-1/2 transform -translate-x-1/2">
     <a class="w-full block text-sm cursor-pointer" href="/home">
       <img id="desktop" class="hidden lg:block" [src]="desktopImageUrl">
       <!-- <img id="mobile" class="lg:hidden block" src="/assets/logo-mobile.png"> -->

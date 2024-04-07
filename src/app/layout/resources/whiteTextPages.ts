@@ -1,1 +1,1 @@
-export const whiteTextPages = ['/home', '/termsAndConditions']
+export const whiteTextPages = ['/home', '/termsAndConditions','/about']
