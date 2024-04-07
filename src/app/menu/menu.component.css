@@ -1,13 +1,4 @@
 
-.menu-box{
-    display: flex;
-    width: 40%;
-    margin-bottom: 30%;
-}
-.menu-button img{
-    max-width: 100%;
-    cursor: pointer;
-}
 .menu{
     display: none;
     flex-direction: column;

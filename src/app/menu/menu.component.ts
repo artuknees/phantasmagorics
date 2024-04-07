@@ -10,15 +10,16 @@ export class MenuComponent {
   @ViewChild('homeButton') buttonRef!: ElementRef;
 
   openMenu(): void {
-    const menu = this.menuRef.nativeElement as HTMLElement;
-    menu.style.display = 'flex';
-    setTimeout(() => {
-      menu.classList.add('open');
-      document.body.style.overflow = 'hidden';
-    }, 0);
-    const button = this.buttonRef.nativeElement as HTMLElement;
-    button.style.visibility = 'hidden';
-    console.log('button clicked');
+    console.log('clicked')
+    // const menu = this.menuRef.nativeElement as HTMLElement;
+    // menu.style.display = 'flex';
+    // setTimeout(() => {
+    //   menu.classList.add('open');
+    //   document.body.style.overflow = 'hidden';
+    // }, 0);
+    // const button = this.buttonRef.nativeElement as HTMLElement;
+    // button.style.visibility = 'hidden';
+    // console.log('button clicked');
   }
 
   collapseMenu(): void {
@@ -42,5 +43,4 @@ export class MenuComponent {
     const button = this.buttonRef.nativeElement as HTMLElement;
     button.style.visibility = 'visible';
   }
-
 }

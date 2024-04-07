@@ -1,34 +1,35 @@
-<div class="menu-box">
-    <button class="menu-button" #homeButton (click)="openMenu()" style="border: none; background: none;">
+<div class="flex text-sm text-phantasmagorics-white">
+  <button class="py-2 w-full flex flex-row items-center justify-center cursor-pointer" #homeButton (click)="openMenu()">
+      <img class="max-w-[32px]" src="./assets/menu.png">
+      <!-- <span class="ml-2">MENU</span> -->
+  </button>
+  <!-- <div class="menu" #menu>
+    <div class="menu-header">
+      <button class="menu-button" (click)="collapseMenu()" style="border: none; background: none;">
         <img src="./assets/menu.png">
-    </button>
-    <div class="menu" #menu>
-        <div class="menu-header">
-            <button class="menu-button" (click)="collapseMenu()" style="border: none; background: none;">
-                <img src="./assets/menu.png">
-            </button>
-        </div>
-        <div class="menu-body">
-            <nav>
-                <ol>
-                    <li>
-                        <a class="menu-list-item" routerLink="/projects" (click)="closeMenu()">PROJECTS</a>
-                    </li>
-                    <hr />
-                    <li>
-                        <a class="menu-list-item"  (click)="closeMenu()">PRODUCT</a>
-                    </li>
-                    <hr />
-                    <li>
-                        <a class="menu-list-item" routerLink="/about" (click)="closeMenu()">ABOUT</a>
-                    </li>
-                    <hr />
-                    <li>
-                        <a class="menu-list-item info" href="https://www.instagram.com/phantasmagorics_id?igsh=MXdrN29qNzZsMzN2eA==" target="_blank">INSTAGRAM</a>
-                    </li>
-                    <hr />
-                </ol>
-            </nav>
-        </div>
+      </button>
     </div>
+    <div class="menu-body">
+      <nav>
+        <ol>
+          <li>
+              <a class="menu-list-item" routerLink="/projects" (click)="closeMenu()">PROJECTS</a>
+          </li>
+          <hr />
+          <li>
+              <a class="menu-list-item"  (click)="closeMenu()">PRODUCT</a>
+          </li>
+          <hr />
+          <li>
+              <a class="menu-list-item" routerLink="/about" (click)="closeMenu()">ABOUT</a>
+          </li>
+          <hr />
+          <li>
+              <a class="menu-list-item info" href="https://www.instagram.com/phantasmagorics_id?igsh=MXdrN29qNzZsMzN2eA==" target="_blank">INSTAGRAM</a>
+          </li>
+          <hr />
+        </ol>
+      </nav>
+    </div>
+  </div> -->
 </div>

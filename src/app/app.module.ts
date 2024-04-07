@@ -13,6 +13,7 @@ import { ProjectHotelComponent } from './proyects/project-hotel/project-hotel.co
 import { ProjectStatusComponent } from './proyects/project-status/project-status.component';
 import { AboutComponent } from './about/about.component';
 import { TermsComponent } from './terms/terms.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TermsComponent } from './terms/terms.component';
     ProjectHotelComponent,
     ProjectStatusComponent,
     AboutComponent,
-    TermsComponent
+    TermsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
