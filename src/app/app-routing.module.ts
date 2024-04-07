@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { TermsComponent } from './terms/terms.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'termsAndConditions', component: TermsComponent },
   { path: 'about', component: AboutComponent },
@@ -19,8 +20,7 @@ const routes: Routes = [
   { path: 'projects/301w118', component: Project301w118Component },
   { path: 'projects/hotel', component: ProjectHotelComponent  },
   { path: 'projects/statusquo', component: ProjectStatusComponent },
-  { path: 'projects/141w85', component: Project141w85Component },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }
+  { path: 'projects/141w85', component: Project141w85Component }
 ];
 
 @NgModule({
