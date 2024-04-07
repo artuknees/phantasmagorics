@@ -1,6 +1,6 @@
 <div class="flex text-sm text-phantasmagorics-white">
-  <button class="py-2 w-full flex flex-row items-center justify-center cursor-pointer" #homeButton (click)="openMenu()">
-      <img class="max-w-[32px]" src="./assets/menu.png">
+  <button class="py-2 w-full flex flex-row items-center justify-center cursor-pointer z-10" #homeButton (click)="openMenu()">
+      <img class="max-w-[32px]" [src]="menuImageUrl">
       <!-- <span class="ml-2">MENU</span> -->
   </button>
   <!-- <div class="menu" #menu>

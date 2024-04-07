@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild, Input } from '@angular/core';
 
 @Component({
   selector: 'app-menu',
@@ -6,6 +6,7 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
+  @Input() menuImageUrl = '';
   @ViewChild('menu') menuRef!: ElementRef;
   @ViewChild('homeButton') buttonRef!: ElementRef;
 

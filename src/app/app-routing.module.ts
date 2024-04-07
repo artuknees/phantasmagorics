@@ -12,7 +12,7 @@ import { TermsComponent } from './terms/terms.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'termsandconditions', component: TermsComponent },
+  { path: 'termsAndConditions', component: TermsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'projects/131w82', component: Proyect131w82Component },

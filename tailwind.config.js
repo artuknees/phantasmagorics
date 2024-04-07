@@ -23,12 +23,17 @@ module.exports = {
     fontFamily: {
       'sans': ['Work Sans', 'sans-serif'],
     },
-
     extend: {
       colors: {
         'phantasmagorics-blue': '#001749',
         'phantasmagorics-white': '#FFFFFF',
       },
+      fontSize: {
+        'button': '23px',
+        'footer': '19px',
+        'common': '22px',
+        'title': '27px'
+      }
     },
   },
   plugins: [require('@tailwindcss/typography')],
