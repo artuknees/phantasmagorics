@@ -1,10 +1,11 @@
 <section class="text-phantasmagorics-blue">
-  <h1 class="text-title md:mt-[146px] mt-[50px]">PROJECTS</h1>
+  <h1 class="md:text-title md:mt-[72px] mt-[45px]">PROJECTS</h1>
+  <!-- en md el mt era 146px -->
   <section
     id="thumbnails-container"
-    class="flex flex-col lg:flex-row lg:flex-wrap lg:items-center lg:justify-center"
-    >
-    <!-- class="mt-[8px] md:mt-[25px] flex flex-col lg:flex-row lg:flex-wrap lg:items-center lg:justify-center" -->
+    class="md:mt-[50px] mt-[35px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-y-[28px] md:gap-y-[81px] md:gap-x-[160px]"
+  >
+  <!-- En md el mt era 106-->
     <app-gallery-item
       *ngFor="let item of galleryItems"
       [href]="item.href"

@@ -11,6 +11,6 @@ export class ProjectsComponent {
     { href: "/projects/141w85", src: "/assets/thumbnails/141w85.jpg" },
     { href: "/projects/301w118", src: "/assets/thumbnails/301w118.jpg" },
     { href: "/projects/hotel", src: "/assets/thumbnails/hotel.jpg" },
-    { href: "/projects/status", src: "/assets/thumbnails/status.jpg" }
+    { href: "/projects/statusquo", src: "/assets/thumbnails/status.jpg" }
   ];
 }

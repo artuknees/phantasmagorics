@@ -14,21 +14,24 @@
       <span class="ml-4 text-button font-sans-light font-light md:block hidden">MENU</span>
     </button>
     <div class="flex flex-col md:pl-[249px] md:pt-[159px] pt-[159px] items-start">
-      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
-        <a class="text-button" href="/projects">PROJECTS</a>
-      </div>
-      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
-        <a class="text-button" href="/">PRODUCT</a>
-      </div>
-      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
-        <a class="text-button" href="/about">ABOUT</a>
-      </div>
-      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
-        <a class="text-button" href="https://www.instagram.com/phantasmagorics_id?igsh=MXdrN29qNzZsMzN2eA==" target="_blank">INSTAGRAM</a>
-      </div>
-      <div class="block md:hidden min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
-        <a class="text-button" href="/home">HOME</a>
-      </div>
+      <app-menuButton [onlyMobile]="true">
+        <a href="/home">HOME</a>
+      </app-menuButton>
+      <app-menuButton>
+        <a href="/projects">PROJECTS</a>
+      </app-menuButton>
+      <app-menuButton>
+        <a href="/">PRODUCT</a>
+      </app-menuButton>
+      <app-menuButton>
+        <a href="/about">ABOUT</a>
+      </app-menuButton>
+      <app-menuButton>
+        <a href="https://www.instagram.com/phantasmagorics_id?igsh=MXdrN29qNzZsMzN2eA==" target="_blank">INSTAGRAM</a>
+      </app-menuButton>
+      <app-menuButton [onlyMobile]="true">
+        <a href="mailto:jsb@phantasmagorics-interiors.com">CONTACT US</a>
+      </app-menuButton>
     </div>
   </div>
 </div>
