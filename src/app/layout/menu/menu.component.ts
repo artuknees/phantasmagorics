@@ -7,7 +7,10 @@ import { Component, ElementRef, ViewChild, Input } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
-  @Input() menuImageUrl = '';
+  @Input() menuImageUrl = {
+    desktop: '',
+    mobile: ''
+  };
   @Input() isWhiteText = false;
   @ViewChild('menu') menuRef!: ElementRef;
   @ViewChild('homeButton') buttonRef!: ElementRef;
