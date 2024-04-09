@@ -4,7 +4,7 @@
 >
   <app-menu [menuImageUrl]="menuImageUrl" [isWhiteText]="isWhiteText"/>
   <div class="hidden z-10 md:block absolute top-[89px] left-1/2 transform -translate-x-1/2 ">
-    <a class="w-full block text-sm cursor-pointer" href="/home">
+    <a class="w-full block text-sm cursor-pointer" href="home">
       <img id="desktop" class="md:h-[47px]" [src]="desktopImageUrl">
     </a>
   </div>
@@ -12,8 +12,8 @@
     <a class="font-sans-light font-light" href="mailto:jsb@phantasmagorics-interiors.com">CONTACT US</a>
   </div>
   <div class="z-10 md:hidden" *ngIf="isHome">
-    <a class="block cursor-pointer mt-[40.5px]" href="/home">
-      <img id="mobile" class="h-[47px]" src="/assets/logo-mobile.png">
+    <a class="block cursor-pointer mt-[40.5px]" href="home">
+      <img id="mobile" class="h-[47px]" src="assets/logo-mobile.png">
     </a>
   </div>
 </header>
