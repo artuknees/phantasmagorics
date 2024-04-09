@@ -1,30 +1,33 @@
 <div class="flex text-sm text-phantasmagorics-white">
   <button class="w-full flex flex-row items-center justify-center cursor-pointer z-10" #homeButton (click)="openMenu()">
-      <img class="max-w-[36px]" [src]="menuImageUrl">
+      <img class="max-w-[32px]" [src]="menuImageUrl">
       <span
-        class="ml-4 text-button"
+        class="ml-4 text-button font-sans-light font-light md:block hidden"
         [ngClass]="{'text-phantasmagorics-white': isWhiteText, 'text-phantasmagorics-blue': !isWhiteText}"
       >
         MENU
       </span>
   </button>
-  <div class="menu pt-[60px] pl-[150px]" #menu>
+  <div class="menu md:pt-[89px] pt-[88px] md:pl-[165px] pl-[25px]" #menu>
     <button class="flex flex-row items-center" (click)="collapseMenu()" style="border: none; background: none;">
-      <img class="max-w-[36px]" src="./assets/menu-white.png">
-      <span class="ml-4 text-button">MENU</span>
+      <img class="max-w-[32px]" src="./assets/menu-white.png">
+      <span class="ml-4 text-button font-sans-light font-light md:block hidden">MENU</span>
     </button>
-    <div class="flex flex-col pl-[240px] pt-[100px] items-start">
-      <div class="min-w-[150px] w-fit border-b border-b-phantasmagorics-white mb-[50px]">
-        <a class="text-button" href="/projects" (click)="closeMenu()">PROJECTS</a>
+    <div class="flex flex-col md:pl-[249px] md:pt-[159px] pt-[159px] items-start">
+      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
+        <a class="text-button" href="/projects">PROJECTS</a>
       </div>
-      <div class="min-w-[150px] w-fit border-b border-b-phantasmagorics-white mb-[50px]">
+      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
         <a class="text-button" href="/">PRODUCT</a>
       </div>
-      <div class="min-w-[150px] w-fit border-b border-b-phantasmagorics-white mb-[50px]">
-        <a class="text-button" href="/about" (click)="closeMenu()">ABOUT</a>
+      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
+        <a class="text-button" href="/about">ABOUT</a>
       </div>
-      <div class="min-w-[150px] w-fit border-b border-b-phantasmagorics-white mb-[50px]">
+      <div class="min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
         <a class="text-button" href="https://www.instagram.com/phantasmagorics_id?igsh=MXdrN29qNzZsMzN2eA==" target="_blank">INSTAGRAM</a>
+      </div>
+      <div class="block md:hidden min-w-[70px] w-fit border-b border-b-phantasmagorics-white mb-[44px]">
+        <a class="text-button" href="/home">HOME</a>
       </div>
     </div>
   </div>

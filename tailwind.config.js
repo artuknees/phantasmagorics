@@ -22,6 +22,7 @@ module.exports = {
     },
     fontFamily: {
       'sans': ['Work Sans', 'sans-serif'],
+      'sans-light': ['Work Sans Light', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -29,10 +30,10 @@ module.exports = {
         'phantasmagorics-white': '#FFFFFF',
       },
       fontSize: {
-        'button': '23px',
-        'footer': '19px',
-        'common': '22px',
-        'title': '27px'
+        'button': '11px',
+        'footer': '10px',
+        'common': '12px',
+        'title': '16px'
       }
     },
   },

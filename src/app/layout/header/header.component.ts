@@ -11,8 +11,10 @@ export class HeaderComponent {
   isWhiteText = false;
   desktopImageUrl = '';
   menuImageUrl = '';
+  isHome = true;
   constructor(private router: Router) {
     this.router.events.subscribe(() => {
+      this.router.url === '/home' ? this.isHome = true : this.isHome = false
       if(whiteTextPages.includes(this.router.url)) {
         this.isWhiteText = true
         this.desktopImageUrl = '/assets/logo-desktop-white.png'

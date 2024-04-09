@@ -1,30 +1,14 @@
-<section class="bg-pink-100 text-phantasmagorics-blue">
-  <h1>poner botones</h1>
-  <!-- <div class="thumbnails-container">
-    <div class="thumbnail">
-      <a [routerLink]="'/projects/131w82'">
-        <img src="/assets/thumbnails/131.jpg" alt="Project 131W82 - NEW">
-      </a>
-    </div>
-    <div class="thumbnail">
-      <a [routerLink]="'/projects/141w85'">
-        <img src="/assets/thumbnails/141.jpg" alt="Project 141W85 - NEW">
-      </a>
-    </div>
-    <div class="thumbnail">
-      <a [routerLink]="'/projects/301w118'">
-        <img src="/assets/thumbnails/301.jpg" alt="Project 301W118">
-      </a>
-    </div>
-    <div class="thumbnail">
-      <a [routerLink]="'/projects/hotel'">
-        <img src="/assets/thumbnails/hotel.jpg" alt="Project Hotel Somewhere">
-      </a>
-    </div>
-    <div class="thumbnail">
-      <a [routerLink]="'/projects/statusquo'">
-        <img src="/assets/thumbnails/status.jpg" alt="Project Status Quo">
-      </a>
-    </div>
-  </div> -->
+<section class="text-phantasmagorics-blue">
+  <h1 class="text-title md:mt-[146px] mt-[50px]">PROJECTS</h1>
+  <section
+    id="thumbnails-container"
+    class="flex flex-col lg:flex-row lg:flex-wrap lg:items-center lg:justify-center"
+    >
+    <!-- class="mt-[8px] md:mt-[25px] flex flex-col lg:flex-row lg:flex-wrap lg:items-center lg:justify-center" -->
+    <app-gallery-item
+      *ngFor="let item of galleryItems"
+      [href]="item.href"
+      [src]="item.src"
+    />
+  </section>
 </section>

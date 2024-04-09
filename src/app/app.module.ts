@@ -12,6 +12,7 @@ import { ProjectStatusComponent } from './projects/project-status/project-status
 import { AboutComponent } from './about/about.component';
 import { TermsComponent } from './terms/terms.component';
 import { LayoutModule } from './layout/layout.module';
+import { GalleryItemComponent } from './projects/galleryItem/galleryItem.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { LayoutModule } from './layout/layout.module';
     ProjectStatusComponent,
     AboutComponent,
     TermsComponent,
+    GalleryItemComponent
   ],
   imports: [
     BrowserModule,

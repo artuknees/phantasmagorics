@@ -1,16 +1,19 @@
 <header
-  class="flex flex-row w-full items-center justify-between"
+  class="flex md:flex-row flex-col w-full md:items-center items-start md:justify-between"
   [ngClass]="{'text-phantasmagorics-white': isWhiteText, 'text-phantasmagorics-blue': !isWhiteText}"
 >
   <app-menu [menuImageUrl]="menuImageUrl" [isWhiteText]="isWhiteText"/>
-  <div class="w-[280px] z-10 absolute top-[50px] left-1/2 transform -translate-x-1/2">
+  <div class="hidden z-10 md:block absolute top-[89px] left-1/2 transform -translate-x-1/2 ">
     <a class="w-full block text-sm cursor-pointer" href="/home">
-      <img id="desktop" class="hidden lg:block" [src]="desktopImageUrl">
-      <!-- <img id="mobile" class="lg:hidden block" src="/assets/logo-mobile.png"> -->
+      <img id="desktop" class="md:h-[47px]" [src]="desktopImageUrl">
     </a>
   </div>
-  <div class="hidden lg:block text-button z-10">
-    <span class="cursor-pointer" (click)="contactUs()">CONTACT US</span>
-    <!-- <a class="" href="mailto:jsb@phantasmagorics-interiors.com">CONTACT US</a> -->
+  <div class="hidden md:block text-button z-10">
+    <a class="font-sans-light font-light" href="mailto:jsb@phantasmagorics-interiors.com">CONTACT US</a>
+  </div>
+  <div class="z-10 md:hidden" *ngIf="isHome">
+    <a class="block cursor-pointer mt-[40.5px]" href="/home">
+      <img id="mobile" class="h-[47px]" src="/assets/logo-mobile.png">
+    </a>
   </div>
 </header>
