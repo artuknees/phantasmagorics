@@ -17,12 +17,12 @@ export class HeaderComponent {
       this.router.url === '/home' ? this.isHome = true : this.isHome = false
       if(whiteTextPages.includes(this.router.url)) {
         this.isWhiteText = true
-        this.desktopImageUrl = '/assets/logo-desktop-white.png'
-        this.menuImageUrl = '/assets/menu-white.png'
+        this.desktopImageUrl = 'assets/logo-desktop-white.png'
+        this.menuImageUrl = 'assets/menu-white.png'
       } else {
         this.isWhiteText = false
-        this.desktopImageUrl = '/assets/logo-desktop-blue.png'
-        this.menuImageUrl = '/assets/menu-blue.png'
+        this.desktopImageUrl = 'assets/logo-desktop-blue.png'
+        this.menuImageUrl = 'assets/menu-blue.png'
       }
     });
   }

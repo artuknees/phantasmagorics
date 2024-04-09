@@ -12,10 +12,10 @@ export class HomeComponent {
     const mobileBackgrounds = 9;
     if (window.innerWidth > 600) {
       const randomNumber = Math.floor(Math.random() * desktopBackgrounds) + 1;
-      this.backgroundImageUrl = `/assets/desktopBackgrounds/home_page_${randomNumber}.jpg`;
+      this.backgroundImageUrl = `assets/desktopBackgrounds/home_page_${randomNumber}.jpg`;
     } else {
       const randomNumber = Math.floor(Math.random() * mobileBackgrounds) + 1;
-      this.backgroundImageUrl = `/assets/mobileBackgrounds/home_page_${randomNumber}.jpg`;
+      this.backgroundImageUrl = `assets/mobileBackgrounds/home_page_${randomNumber}.jpg`;
     }
   }
 }
