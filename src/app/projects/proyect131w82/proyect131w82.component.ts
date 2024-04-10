@@ -14,6 +14,7 @@ export class Proyect131w82Component implements AfterViewInit{
 
   swiperParams: SwiperOptions = {
     autoplay: false,
+    loop: true,
     slidesPerView: 1,
     spaceBetween: 50,
     centeredSlides: true,
@@ -24,6 +25,12 @@ export class Proyect131w82Component implements AfterViewInit{
       prevEl: '.swiper-button-prev',
     },
     modules: [Navigation],
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
+    },
+    direction: 'horizontal'
   };
 
   ngAfterViewInit(): void {

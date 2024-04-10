@@ -1,15 +1,15 @@
 <p class="title">/PROJECTS</p>
 <div class="swiper" oncontextmenu="return false;">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide" *ngFor="let image of images">
-            <img class="gallery-img" [src]="image" alt="Hotel Somewhere img" loading="lazy">
-            <div class="swiper-lazy-preloader"></div>
-        </div>
-    </div>
+  <div class="swiper-wrapper">
+      <div class="swiper-slide" *ngFor="let image of images">
+        <img class="gallery-img" [src]="image" alt="Hotel Somewhere img" loading="lazy">
+        <div class="swiper-lazy-preloader"></div>
+      </div>
+  </div>
 </div>
-<div class="w-full h-10 z-20 swiper-button-prev">PREVIOUS</div>
-<div class="w-full h-10 z-20 swiper-button-next">NEXT</div>
-
+  <div class="swiper-pagination border bg-blue-500"></div>
+  <div class="w-full h-10 z-20 swiper-button-prev">PREVIOUS</div>
+  <div class="w-full h-10 z-20 swiper-button-next">NEXT</div>
 <div class="project-text">
     <h1>Upper West Side Duplex Pied à Terre</h1>
     <h2>Full-scale gut renovation + Furnishing</h2>
