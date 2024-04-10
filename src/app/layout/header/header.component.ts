@@ -12,7 +12,7 @@ export class HeaderComponent {
   desktopImageUrl = '';
   menuImageUrl = {
     desktop: '',
-    mobile: ''
+    // mobile: ''
   };
   isHome = true;
   constructor(private router: Router) {
@@ -23,20 +23,16 @@ export class HeaderComponent {
         this.desktopImageUrl = 'assets/logo-desktop-white.png'
         this.menuImageUrl = {
           desktop: 'assets/menuToggle/menuWhiteDesktop.png',
-          mobile: 'assets/menuToggle/menuWhiteMobile.png'
+          // mobile: 'assets/menuToggle/menuWhiteMobile.png'
         }
       } else {
         this.isWhiteText = false
         this.desktopImageUrl = 'assets/logo-desktop-blue.png'
         this.menuImageUrl = {
           desktop: 'assets/menuToggle/menuBlueDesktop.png',
-          mobile: 'assets/menuToggle/menuBlueMobile.png'
+          // mobile: 'assets/menuToggle/menuBlueMobile.png'
         }
       }
     });
-  }
-
-  contactUs () {
-    alert('contact us - test function')
   }
 }
