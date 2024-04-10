@@ -28,7 +28,6 @@ export class Proyect131w82Component implements AfterViewInit{
 
   ngAfterViewInit(): void {
     this.initSwiper();
-    console.log('Inicialización de Swiper');
   }
 
   initSwiper() {
@@ -36,18 +35,13 @@ export class Proyect131w82Component implements AfterViewInit{
   }
 
   images: string[] = [
-    './assets/131/1.png',
-    './assets/131/2.png',
-    './assets/131/3.png',
-    './assets/131/4.png',
-    './assets/131/5.png',
-    './assets/131/6.png',
-    './assets/131/7.png',
-    './assets/131/8.png',
-    './assets/131/9.png',
-    './assets/131/10.png',
-    './assets/131/11.png',
-
+    './assets/projects/131/1.png',
+    './assets/projects/131/2.png',
+    './assets/projects/131/3.png',
+    './assets/projects/131/4.png',
+    './assets/projects/131/5.png',
+    './assets/projects/131/6.png',
+    './assets/projects/131/7.png',
+    './assets/projects/131/8.png',
   ]
-
 }
