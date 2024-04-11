@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
+  host: {class: 'myClass'},
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {

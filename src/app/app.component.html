@@ -1,7 +1,15 @@
-<main class="min-h-screen h-full flex flex-col w-full overflow-auto lg:px-[165px] px-[25px] md:pt-[70px] pt-[88px] md:pb-[40px] pb-[44px]">
-  <app-header/>
-  <div class="flex flex-col flex-auto">
-    <router-outlet/>
+<main
+  #customBackground
+  class="flex flex-col min-h-screen h-full bg-cover bg-center w-full overflow-auto "
+>
+  <div
+    #customColor
+    class="flex flex-col flex-auto h-full lg:px-[165px] px-[25px] md:pt-[70px] pt-[88px] md:pb-[40px] pb-[44px]"
+  >
+    <app-header/>
+    <div class="flex flex-col flex-auto w-full">
+      <router-outlet/>
+    </div>
+    <app-footer/>
   </div>
-  <app-footer/>
 </main>
