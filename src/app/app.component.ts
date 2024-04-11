@@ -19,7 +19,7 @@ export class AppComponent implements AfterViewInit {
     const desktopBackgrounds = 8;
     const mobileBackgrounds = 9;
     this.router.events.subscribe(() => {
-      const pageIndex = backgroundPages.findIndex((item) => item.path.includes(this.router.url))
+      const pageIndex = backgroundPages.findIndex((item) => this.router.url.includes(item.path))
       if (pageIndex !== -1) {
         if (backgroundPages[pageIndex].hasImage === true) {
           if (window.innerWidth > 600) {

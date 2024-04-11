@@ -23,13 +23,6 @@ export class Proyect131w82Component implements AfterViewInit {
       prevEl: '.swiper-button-prev',
     },
     modules: [Navigation],
-    // pagination: {
-    //   el: '.swiper-pagination',
-    //   type: 'bullets',
-    //   clickable: true,
-    //   dynamicBullets: true,
-    // },
-    // uniqueNavElements: true,
     direction: 'horizontal'
   };
 
