@@ -1,16 +1,15 @@
 <div class="text-phantasmagorics-blue">
   <h1 class="text-title md:mt-[72px] mt-[45px]">PROJECT</h1>
-  <section class="flex justify-center mt-[40.5px] h-[650px]">
-    <div class="swiper border border-black" oncontextmenu="return false;">
-      <div class="swiper-wrapper">
-          <div class="swiper-slide" *ngFor="let image of images">
-            <img class="object-cover" [src]="image" alt="Hotel Somewhere img" loading="lazy">
-            <div class="swiper-lazy-preloader"></div>
-          </div>
-      </div>
+  <div class="swiper" oncontextmenu="return false;">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let image of images">
+          <img class="gallery-img" [src]="image" alt="Hotel Somewhere img" loading="lazy">
+          <div class="swiper-lazy-preloader"></div>
+        </div>
     </div>
-  </section>
+  </div>
   <div class="flex flex-row items-center justify-between w-full max-w-full mx-auto mt-4">
+    <!-- <div class="swiper-pagination"></div> -->
     <button class="hidden md:block border-b border-b-phantasmagorics-blue mb-[44px] text-button z-20 swiper-button-prev">PREVIOUS</button>
     <button class="hidden md:block border-b border-b-phantasmagorics-blue mb-[44px] text-button z-20 swiper-button-next">NEXT</button>
   </div>

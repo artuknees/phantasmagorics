@@ -2,7 +2,6 @@ import { AfterViewInit, Component } from '@angular/core';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types/swiper-options';
-import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-proyect131w82',
@@ -10,20 +9,6 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./proyect131w82.component.css']
 })
 export class Proyect131w82Component implements AfterViewInit {
-  project: string = '';
-  constructor (
-    private route: ActivatedRoute,
-  ) {
-    this.route.params.subscribe(params => {
-      const id = params['id'];
-      if (typeof id === 'string') {
-        this.project = id;
-      } else {
-        this.project = '';
-      }
-    });
-  }
-
   private mySwiper: Swiper | undefined;
   swiperParams: SwiperOptions = {
     autoplay: false,
@@ -38,11 +23,13 @@ export class Proyect131w82Component implements AfterViewInit {
       prevEl: '.swiper-button-prev',
     },
     modules: [Navigation],
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: true,
-    },
+    // pagination: {
+    //   el: '.swiper-pagination',
+    //   type: 'bullets',
+    //   clickable: true,
+    //   dynamicBullets: true,
+    // },
+    // uniqueNavElements: true,
     direction: 'horizontal'
   };
 

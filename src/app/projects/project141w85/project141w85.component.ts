@@ -35,19 +35,30 @@ export class Project141w85Component implements AfterViewInit{
     this.mySwiper = new Swiper('.swiper', this.swiperParams);
   }
 
-  images: string[] = [
-    './assets/141/1.png',
-    './assets/141/2.png',
-    './assets/141/3.png',
-    './assets/141/4.png',
-    './assets/141/5.png',
-    './assets/141/6.png',
-    './assets/141/7.png',
-    './assets/141/8.png',
-    './assets/141/9.png',
-    './assets/141/10.png',
-    './assets/141/11.png',
+  // images: string[] = [
+  //   './assets/141/1.png',
+  //   './assets/141/2.png',
+  //   './assets/141/3.png',
+  //   './assets/141/4.png',
+  //   './assets/141/5.png',
+  //   './assets/141/6.png',
+  //   './assets/141/7.png',
+  //   './assets/141/8.png',
+  //   './assets/141/9.png',
+  //   './assets/141/10.png',
+  //   './assets/141/11.png',
 
+  // ]
+  images: string[] = [
+    './assets/projects/131/1.png',
+    './assets/projects/131/2.png',
+    './assets/projects/131/3.png',
+    './assets/projects/131/4.png',
+    './assets/projects/131/5.png',
+    './assets/projects/131/6.png',
+    './assets/projects/131/7.png',
+    './assets/projects/131/8.png',
   ]
+
 
 }
