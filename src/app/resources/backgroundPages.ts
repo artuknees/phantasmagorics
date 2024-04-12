@@ -7,9 +7,9 @@ export const backgroundPages = [
   },
   {
     path: '/termsAndConditions',
-    hasImage: false,
+    hasImage: true,
     hasBlue: true,
-    hasOpaticy: false
+    hasOpaticy: true
   },
   {
     path: '/projects',

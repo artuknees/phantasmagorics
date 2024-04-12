@@ -33,7 +33,7 @@ module.exports = {
         'button': '11px',
         'footer': '10px',
         'common': '12px',
-        'title': '10px'
+        'title': '11px'
       }
     },
   },
