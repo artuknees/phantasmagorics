@@ -2,8 +2,10 @@
   <h1 class="text-title md:mt-[72px] mt-[45px]">PROJECTS</h1>
   <section
     id="thumbnails-container"
-    class="md:mt-[50px] mt-[35px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-y-[28px] md:gap-y-[81px] md:gap-x-[160px]"
+    class="md:mt-[50px] mt-[35px] flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-y-[28px] md:gap-y-[8vh] md:gap-x-[6%]"
   >
+  <!-- gap x 160 => 6% -->
+  <!-- gap y 81px => 8vh -->
     <app-gallery-item
       *ngFor="let item of galleryItems"
       [href]="item.href"

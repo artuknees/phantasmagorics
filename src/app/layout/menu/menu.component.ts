@@ -9,7 +9,6 @@ import { Component, ElementRef, ViewChild, Input } from '@angular/core';
 export class MenuComponent {
   @Input() menuImageUrl = {
     desktop: '',
-    // mobile: ''
   };
   @Input() isWhiteText = false;
   @ViewChild('menu') menuRef!: ElementRef;
