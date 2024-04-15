@@ -43,5 +43,6 @@ export class Proyect131w82Component implements AfterViewInit {
     './assets/projects/131/6.png',
     './assets/projects/131/7.png',
     './assets/projects/131/8.png',
+    './assets/projects/131/9.png',
   ]
 }

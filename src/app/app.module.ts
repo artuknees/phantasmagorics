@@ -14,6 +14,7 @@ import { TermsComponent } from './terms/terms.component';
 import { LayoutModule } from './layout/layout.module';
 import { GalleryItemComponent } from './projects/galleryItem/galleryItem.component';
 import { ProductComponent } from './product/product.component';
+import { GenericProjectComponent } from './projects/genericProject/genericProject.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProductComponent } from './product/product.component';
     AboutComponent,
     TermsComponent,
     GalleryItemComponent,
-    ProductComponent
+    ProductComponent,
+    GenericProjectComponent
   ],
   imports: [
     BrowserModule,
