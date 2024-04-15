@@ -15,7 +15,7 @@ export const projects = [
     description: {
       title: 'UPPER WEST SIDE DUPLEX PIED À TERRE',
       subTitle: 'Full-scale gut renovation + Furnishing',
-      boldFooter: '700sg ft + 300sg ft deck',
+      boldFooter: '700sq ft + 300sq ft deck',
       paragraphs: [
         `Sharp, cool whites, with considered use of bold color and unique textures, exemplify the north facing apartment’s ‘art
         gallery’ aesthetic.`,
@@ -56,7 +56,7 @@ export const projects = [
     description: {
       title: 'UPPER WEST SIDE TRIPLEX RESIDENCE',
       subTitle: 'Full-scale gut renovation + Furnishing',
-      boldFooter: '700sg ft',
+      boldFooter: '700sq ft',
       paragraphs: [
         `Textured materials in muted colors and minimal furnishings, were used to design the apartment’s calming aesthetic.`,
         `Creating a warm, deeply engaging bath was key for the clients. Softly brushed, seamless tadelakt walls anchor the
@@ -84,7 +84,7 @@ export const projects = [
     description: {
       title: 'HARLEM FITNESS STUDIO',
       subTitle: 'Fit-out + Custom Millwork',
-      boldFooter: '600sg ft',
+      boldFooter: '600sq ft',
       paragraphs: [
         `The client desired a clean, modern, highly functional space for private client exercise classes.`,
         `High traffic, waterproof, noxious chemical free vinyl tile, with cork backing, was selected to provide the intimate texture
