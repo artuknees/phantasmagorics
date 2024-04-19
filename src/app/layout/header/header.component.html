@@ -5,10 +5,10 @@
   <app-menu [menuImageUrl]="menuImageUrl" [isWhiteText]="isWhiteText"/>
   <div class="hidden z-10 md:block absolute top-[70px] left-1/2 transform -translate-x-1/2">
     <a class="w-full block text-sm cursor-pointer" href="home">
-      <img id="desktop" class="md:h-[40px] 3xl:h-[52px]" [src]="desktopImageUrl">
+      <img id="desktop" class="md:h-[40px]" [src]="desktopImageUrl">
     </a>
   </div>
-  <div class="hidden md:block text-button 3xl:text-[16px] z-10">
+  <div class="hidden md:block text-button z-10">
     <a class="font-sans-light font-light" href="mailto:jsb@phantasmagorics-interiors.com">CONTACT US</a>
   </div>
   <div class="z-10 md:hidden" *ngIf="isHome">
