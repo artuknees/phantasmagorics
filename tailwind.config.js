@@ -31,6 +31,7 @@ module.exports = {
     extend: {
       colors: {
         'phantasmagorics-blue': '#0033a0',
+        'phantasmagorics-dark-blue': '#001749',
         'phantasmagorics-white': '#FFFFFF',
       },
       fontSize: {

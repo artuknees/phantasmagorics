@@ -11,6 +11,7 @@ export const projects = [
       './assets/projects/131/7.png',
       './assets/projects/131/8.png',
       './assets/projects/131/9.png',
+      './assets/projects/131/10.png',
     ],
     description: {
       title: 'UPPER WEST SIDE DUPLEX PIED À TERRE',
@@ -42,6 +43,7 @@ export const projects = [
   {
     name: '141w85',
     images: [
+      './assets/projects/141/1.png',
       './assets/projects/141/2.png',
       './assets/projects/141/3.png',
       './assets/projects/141/4.png',
@@ -50,7 +52,6 @@ export const projects = [
       './assets/projects/141/7.png',
       './assets/projects/141/8.png',
       './assets/projects/141/9.png',
-      './assets/projects/141/10.png',
     ],
     description: {
       title: 'UPPER WEST SIDE TRIPLEX RESIDENCE',
