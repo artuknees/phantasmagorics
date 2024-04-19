@@ -4,10 +4,25 @@
     lg:w-[32vw]
     md:w-[38vw]
     w-full
-    flex-none
     overflow-hidden
+    flex flex-col items-center justify-center
   ">
-  <a [href]="href" class="">
-    <img [src]="src" class="cursor-pointer object-fill transition ease-in-out delay-0 hover:scale-110 duration-300">
+  <a [href]="href" class="w-fit flex flex-col">
+    <img
+      [src]="src"
+      class="
+        cursor-pointer
+        transition
+        ease-in-out
+        delay-0
+        hover:scale-110
+        duration-300
+        w-full
+        h-auto
+        object-cover
+        max-w-[535px]
+        max-h-full
+      "
+    >
   </a>
 </div>

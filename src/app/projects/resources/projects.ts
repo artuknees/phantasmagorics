@@ -28,7 +28,7 @@ export const projects = [
         Round, recessed wall wash and downlights at the 1st level. Globe ceiling lights at the 2nd level. Matte walls, with light
         reflecting semi-gloss at the stairwell. Refurbished deck doors and sidelites. New windows. An oversized awning window
         encloses a previously open terrace and further grows the living space. These foundational, museum-inspired finishes
-        create a canvas through which declarative, postmodern furnishings, colored floor lighting and contrasting rustic wood
+        create a canvas through which declarative, high modern furnishings, colored floor lighting and contrasting rustic wood
         seating become artful, highlighted objects.`,
         `The bath contains honed, cream, and ochre cement tile. A dramatic, full wall mirror doubles the perceived size of the
         small space. Curbless, walk-in shower with wall and floor recessed glass partition. Recessed ceiling showerhead for
@@ -42,7 +42,6 @@ export const projects = [
   {
     name: '141w85',
     images: [
-      './assets/projects/141/1.png',
       './assets/projects/141/2.png',
       './assets/projects/141/3.png',
       './assets/projects/141/4.png',

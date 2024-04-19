@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import { SwiperOptions } from 'swiper/types/swiper-options';
@@ -17,14 +17,14 @@ interface description {
   templateUrl: './genericProject.component.html',
   styleUrls: ['./genericProject.component.css']
 })
-export class GenericProjectComponent implements AfterViewInit {
+export class GenericProjectComponent implements OnInit {
   private mySwiper: Swiper | undefined;
+
   swiperParams: SwiperOptions = {
     autoplay: false,
-    loop: true,
     slidesPerView: 1,
-    spaceBetween: 50,
-    centeredSlides: true,
+    centeredSlides: false,
+    loop: false,
     watchOverflow: false,
     lazyPreloadPrevNext: 2,
     navigation: {
@@ -43,9 +43,11 @@ export class GenericProjectComponent implements AfterViewInit {
     paragraphs: []
   };
 
-  constructor(private route: ActivatedRoute) {}
+  isLastImage = false;
+  isFirstImage = true;
 
-  ngAfterViewInit(): void {
+  constructor(private route: ActivatedRoute) {}
+  ngOnInit(): void {
     this.route.params.subscribe(params => {
       const projectId = params['id'];
       this.loadProjectData(projectId);
@@ -68,7 +70,28 @@ export class GenericProjectComponent implements AfterViewInit {
     }
   }
 
+  UpdateButtonOpacity () {
+    console.log('update opacity')
+    this.mySwiper?.isBeginning
+      ? this.isFirstImage = true
+      : this.isFirstImage = false
+
+    this.mySwiper?.isEnd
+      ? this.isLastImage = true
+      : this.isLastImage = false
+    }
+
+
   initSwiper() {
-    this.mySwiper = new Swiper('.swiper', this.swiperParams);
+    this.mySwiper = new Swiper('.swiper', {
+      ...this.swiperParams,
+      on: {
+        slideChange: () => {
+          this.UpdateButtonOpacity()
+        }
+      }
+    });
+    this.isFirstImage = true;
+    this.isLastImage = false;
   }
 }

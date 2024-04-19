@@ -19,6 +19,10 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+
+      '3xl': '2000px',
+      // => @media (min-width: 2000px) { ... }
+
     },
     fontFamily: {
       'sans': ['Work Sans', 'sans-serif'],
@@ -26,14 +30,14 @@ module.exports = {
     },
     extend: {
       colors: {
-        'phantasmagorics-blue': '#001749',
+        'phantasmagorics-blue': '#0033a0',
         'phantasmagorics-white': '#FFFFFF',
       },
       fontSize: {
-        'button': '11px',
-        'footer': '10px',
-        'common': '12px',
-        'title': '11px'
+        'button': '12px',
+        'footer': '11px',
+        'common': '13px',
+        'title': '14px'
       }
     },
   },

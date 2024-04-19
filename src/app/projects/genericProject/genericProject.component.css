@@ -26,6 +26,10 @@
   text-align: center;
   width: 100%;
 }
+.description h1 {
+  font-weight: 600;
+  font-size: 14px;
+}
 
 @media only screen and (min-width: 768px) {
   .gallery-img {
@@ -33,5 +37,14 @@
   }
   .swiper{
     width: 90%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .description h2, h3, p {
+    font-size: 16px;
+  }
+  .description h1 {
+    font-size: 17px;
   }
 }
