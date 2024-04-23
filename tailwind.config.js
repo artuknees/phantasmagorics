@@ -25,8 +25,9 @@ module.exports = {
 
     },
     fontFamily: {
-      'sans': ['Work Sans', 'sans-serif'],
-      'sans-light': ['Work Sans Light', 'sans-serif'],
+      'sans': ['peridot-pe-variable','sans-serif']
+      // 'sans': ['Work Sans', 'sans-serif'],
+      // 'sans-light': ['Work Sans Light', 'sans-serif'],
     },
     extend: {
       colors: {
