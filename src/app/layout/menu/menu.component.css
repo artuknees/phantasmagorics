@@ -17,6 +17,7 @@
   display: flex;
   transform: translateY(0%);
   opacity: .87;
+  overflow: auto;
 }
 .menu.close {
   display: none;
