@@ -25,7 +25,7 @@ module.exports = {
 
     },
     fontFamily: {
-      'sans': ['peridot-pe-variable','sans-serif']
+      'peridot': ['peridot-pe-variable','sans-serif']
       // 'sans': ['Work Sans', 'sans-serif'],
       // 'sans-light': ['Work Sans Light', 'sans-serif'],
     },
