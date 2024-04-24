@@ -34,8 +34,8 @@ export class AppComponent implements AfterViewInit {
         }
         this.customColor.nativeElement.style.backgroundColor = backgroundPages[pageIndex].hasBlue
         ? backgroundPages[pageIndex].hasOpaticy
-          ? 'rgba(0, 23, 73, 0.87)'
-          : 'rgba(0, 23, 73, 1)'
+          ? 'rgba(0, 51, 160, 0.87)'
+          : 'rgba(0, 51, 160, 1)'
         : '#FF'
       } else {
         this.customBackground.nativeElement.style.backgroundImage = 'none';
