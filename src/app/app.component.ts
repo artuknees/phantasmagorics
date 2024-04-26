@@ -16,7 +16,7 @@ export class AppComponent implements AfterViewInit {
 
   constructor(private router: Router) {}
   ngAfterViewInit() {
-    const desktopBackgrounds = 8;
+    const desktopBackgrounds = 7;
     const mobileBackgrounds = 9;
     this.router.events.subscribe(() => {
       const pageIndex = backgroundPages.findIndex((item) => this.router.url.includes(item.path))
