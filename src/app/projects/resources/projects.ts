@@ -1,17 +1,17 @@
 export const projects = [
   {
-    name: '131w82',
-    images: [
-      './assets/projects/131/1.png',
-      './assets/projects/131/2.png',
-      './assets/projects/131/3.png',
-      './assets/projects/131/4.png',
-      './assets/projects/131/5.png',
-      './assets/projects/131/6.png',
-      './assets/projects/131/7.png',
-      './assets/projects/131/8.png',
-      './assets/projects/131/9.png',
-      './assets/projects/131/10.png',
+    name: 'Renovation-1', // 131w82
+    images: [ // ./131/*
+      './assets/projects/Renovation-1/1.png',
+      './assets/projects/Renovation-1/2.png',
+      './assets/projects/Renovation-1/3.png',
+      './assets/projects/Renovation-1/4.png',
+      // './assets/projects/Renovation-1/5.png',
+      // './assets/projects/Renovation-1/6.png',
+      './assets/projects/Renovation-1/7.png',
+      './assets/projects/Renovation-1/8.png',
+      './assets/projects/Renovation-1/9.png',
+      './assets/projects/Renovation-1/10.png',
     ],
     description: {
       title: 'UPPER WEST SIDE DUPLEX PIED À TERRE',
@@ -41,17 +41,17 @@ export const projects = [
     }
   },
   {
-    name: '141w85',
-    images: [
-      './assets/projects/141/1.png',
-      './assets/projects/141/2.png',
-      './assets/projects/141/3.png',
-      './assets/projects/141/4.png',
-      './assets/projects/141/5.png',
-      './assets/projects/141/6.png',
-      './assets/projects/141/7.png',
-      './assets/projects/141/8.png',
-      './assets/projects/141/9.png',
+    name: 'Renovation-2', // 141w85
+    images: [ // ./141/*
+      './assets/projects/Renovation-2/1.png',
+      './assets/projects/Renovation-2/2.png',
+      './assets/projects/Renovation-2/3.png',
+      './assets/projects/Renovation-2/4.png',
+      './assets/projects/Renovation-2/5.png',
+      './assets/projects/Renovation-2/6.png',
+      './assets/projects/Renovation-2/7.png',
+      // './assets/projects/Renovation-2/8.png',
+      './assets/projects/Renovation-2/9.png',
     ],
     description: {
       title: 'UPPER WEST SIDE TRIPLEX RESIDENCE',
@@ -69,17 +69,17 @@ export const projects = [
         surface mount and recessed cube lighting. A monochrome, deep gray kitchen with flat fronts, panel ready appliances,
         hidden exhaust, and concealed outlets. Raw steel spiral stair. Together, these foundation finishes set the stage for rightsized,
         iconic Danish furnishings in patinated leather and brushed steel, veined marble, linens, wools, and natural oak.`,
-        `Highly architectural tranquility achieved.`
+        `Thanks to Kinship Architecture for their architectural collaboration.`
       ]
     }
   },
   {
-    name: '301w118',
-    images: [
-      './assets/projects/301/1.png',
-      './assets/projects/301/2.png',
-      './assets/projects/301/3.png',
-      './assets/projects/301/4.png',
+    name: 'Fit-out-1', // 301w118
+    images: [ // ./301/*
+      // './assets/projects/Fit-out-1/1.png',
+      './assets/projects/Fit-out-1/2.png',
+      './assets/projects/Fit-out-1/3.png',
+      './assets/projects/Fit-out-1/4.png',
     ],
     description: {
       title: 'HARLEM FITNESS STUDIO',
@@ -100,13 +100,13 @@ export const projects = [
     }
   },
   {
-    name: 'hotel',
-    images: [
-      './assets/projects/hotel/1.png',
-      './assets/projects/hotel/2.png',
-      './assets/projects/hotel/3.png',
-      './assets/projects/hotel/4.png',
-      './assets/projects/hotel/5.png',
+    name: 'PARSONS-AAS-3', // hotel
+    images: [ // ./hotel/*
+      './assets/projects/PARSONS-AAS-3/1.png',
+      './assets/projects/PARSONS-AAS-3/2.png',
+      './assets/projects/PARSONS-AAS-3/3.png',
+      './assets/projects/PARSONS-AAS-3/4.png',
+      './assets/projects/PARSONS-AAS-3/5.png',
     ],
     description: {
       title: 'GREENWICH VILLAGE HOTEL - STUDIO PROJECT',
@@ -129,11 +129,11 @@ export const projects = [
     }
   },
   {
-    name: 'statusquo',
-    images: [
-      './assets/projects/status/1.png',
-      './assets/projects/status/2.png',
-      './assets/projects/status/3.png',
+    name: 'PARSONS-AAS-2', // statusquo
+    images: [ // ./status/*
+      './assets/projects/PARSONS-AAS-2/1.png',
+      './assets/projects/PARSONS-AAS-2/2.png',
+      './assets/projects/PARSONS-AAS-2/3.png',
     ],
     description: {
       title: 'LOWER EAST SIDE CANNABIS DISPENSARY - STUDIO PROJECT',

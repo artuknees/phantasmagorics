@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   galleryItems = [
-    { href: "projects/131w82", src: "assets/thumbnails/131w82.png" },
-    { href: "projects/141w85", src: "assets/thumbnails/141w85.jpg" },
-    { href: "projects/301w118", src: "assets/thumbnails/301w118.jpg" },
-    { href: "projects/hotel", src: "assets/thumbnails/hotel.jpg" },
-    { href: "projects/statusquo", src: "assets/thumbnails/status.jpg" }
+    { href: "projects/Renovation-1", src: "assets/thumbnails/Renovation-1.png" }, // 131w82
+    { href: "projects/Renovation-2", src: "assets/thumbnails/Renovation-2.jpg" }, // 141w85
+    { href: "projects/Fit-out-1", src: "assets/thumbnails/Fit-out-1.jpg" }, // 301w118
+    { href: "projects/PARSONS-AAS-3", src: "assets/thumbnails/PARSONS-AAS-3.jpg" }, // hotel
+    { href: "projects/PARSONS-AAS-2", src: "assets/thumbnails/PARSONS-AAS-2.jpg" } // statusquo
   ];
 }
