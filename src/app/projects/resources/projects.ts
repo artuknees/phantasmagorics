@@ -2,16 +2,15 @@ export const projects = [
   {
     name: 'Renovation-1', // 131w82
     images: [ // ./131/*
-      './assets/projects/Renovation-1/1.png',
-      './assets/projects/Renovation-1/2.png',
-      './assets/projects/Renovation-1/3.png',
-      './assets/projects/Renovation-1/4.png',
-      // './assets/projects/Renovation-1/5.png',
-      // './assets/projects/Renovation-1/6.png',
-      './assets/projects/Renovation-1/7.png',
-      './assets/projects/Renovation-1/8.png',
-      './assets/projects/Renovation-1/9.png',
-      './assets/projects/Renovation-1/10.png',
+      './assets/projects/Renovation-1/1.webp',
+      './assets/projects/Renovation-1/2.webp',
+      './assets/projects/Renovation-1/3.webp',
+      './assets/projects/Renovation-1/4.webp',
+      './assets/projects/Renovation-1/7.webp',
+      './assets/projects/Renovation-1/8.webp',
+      './assets/projects/Renovation-1/8bis.webp',
+      './assets/projects/Renovation-1/9.webp',
+      './assets/projects/Renovation-1/10.webp',
     ],
     description: {
       title: 'UPPER WEST SIDE DUPLEX PIED À TERRE',
@@ -43,15 +42,15 @@ export const projects = [
   {
     name: 'Renovation-2', // 141w85
     images: [ // ./141/*
-      './assets/projects/Renovation-2/1.png',
-      './assets/projects/Renovation-2/2.png',
-      './assets/projects/Renovation-2/3.png',
-      './assets/projects/Renovation-2/4.png',
-      './assets/projects/Renovation-2/5.png',
-      './assets/projects/Renovation-2/6.png',
-      './assets/projects/Renovation-2/7.png',
-      // './assets/projects/Renovation-2/8.png',
-      './assets/projects/Renovation-2/9.png',
+      './assets/projects/Renovation-2/1.webp',
+      './assets/projects/Renovation-2/2.webp',
+      './assets/projects/Renovation-2/3.webp',
+      './assets/projects/Renovation-2/4.webp',
+      './assets/projects/Renovation-2/4bis.webp',
+      './assets/projects/Renovation-2/5.webp',
+      './assets/projects/Renovation-2/6.webp',
+      './assets/projects/Renovation-2/7.webp',
+      './assets/projects/Renovation-2/9.webp',
     ],
     description: {
       title: 'UPPER WEST SIDE TRIPLEX RESIDENCE',
@@ -76,10 +75,9 @@ export const projects = [
   {
     name: 'Fit-out-1', // 301w118
     images: [ // ./301/*
-      // './assets/projects/Fit-out-1/1.png',
-      './assets/projects/Fit-out-1/2.png',
-      './assets/projects/Fit-out-1/3.png',
-      './assets/projects/Fit-out-1/4.png',
+      './assets/projects/Fit-out-1/2.webp',
+      './assets/projects/Fit-out-1/3.webp',
+      './assets/projects/Fit-out-1/4.webp',
     ],
     description: {
       title: 'HARLEM FITNESS STUDIO',
@@ -102,11 +100,11 @@ export const projects = [
   {
     name: 'PARSONS-AAS-3', // hotel
     images: [ // ./hotel/*
-      './assets/projects/PARSONS-AAS-3/1.png',
-      './assets/projects/PARSONS-AAS-3/2.png',
-      './assets/projects/PARSONS-AAS-3/3.png',
-      './assets/projects/PARSONS-AAS-3/4.png',
-      './assets/projects/PARSONS-AAS-3/5.png',
+      './assets/projects/PARSONS-AAS-3/1.webp',
+      './assets/projects/PARSONS-AAS-3/2.webp',
+      './assets/projects/PARSONS-AAS-3/3.webp',
+      './assets/projects/PARSONS-AAS-3/4.webp',
+      './assets/projects/PARSONS-AAS-3/5.webp',
     ],
     description: {
       title: 'GREENWICH VILLAGE HOTEL - STUDIO PROJECT',
@@ -131,9 +129,9 @@ export const projects = [
   {
     name: 'PARSONS-AAS-2', // statusquo
     images: [ // ./status/*
-      './assets/projects/PARSONS-AAS-2/1.png',
-      './assets/projects/PARSONS-AAS-2/2.png',
-      './assets/projects/PARSONS-AAS-2/3.png',
+      './assets/projects/PARSONS-AAS-2/1.webp',
+      './assets/projects/PARSONS-AAS-2/2.webp',
+      './assets/projects/PARSONS-AAS-2/3.webp',
     ],
     description: {
       title: 'LOWER EAST SIDE CANNABIS DISPENSARY - STUDIO PROJECT',
