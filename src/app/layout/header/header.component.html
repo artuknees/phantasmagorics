@@ -5,7 +5,7 @@
   <app-menu [menuImageUrl]="menuImageUrl" [isWhiteText]="isWhiteText"/>
   <div class="hidden z-10 md:block absolute top-[70px] left-1/2 transform -translate-x-1/2">
     <a class="w-full block text-sm cursor-pointer" href="home">
-      <img id="desktop" class="md:h-[40px]" [src]="desktopImageUrl">
+      <img id="desktop" loading="lazy" class="md:h-[40px]" [src]="desktopImageUrl">
     </a>
   </div>
   <div class="hidden md:block text-button z-10">
@@ -13,7 +13,7 @@
   </div>
   <div class="z-10 md:hidden" *ngIf="isHome">
     <a class="block cursor-pointer mt-[40.5px]" href="home">
-      <img id="mobile" class="h-[42px]" src="assets/logo-mobile.png">
+      <img id="mobile" loading="lazy" class="h-[42px]" src="assets/logo-mobile.png">
     </a>
   </div>
 </header>

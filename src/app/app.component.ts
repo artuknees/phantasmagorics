@@ -24,10 +24,10 @@ export class AppComponent implements AfterViewInit {
         if (backgroundPages[pageIndex].hasImage === true) {
           if (window.innerWidth > 600) {
             const randomNumber = Math.floor(Math.random() * desktopBackgrounds) + 1;
-            this.customBackground.nativeElement.style.backgroundImage = `url('assets/desktopBackgrounds/home_page_${randomNumber}.jpg')`;
+            this.customBackground.nativeElement.style.backgroundImage = `url('assets/desktopBackgrounds/home_page_${randomNumber}.webp')`;
           } else {
             const randomNumber = Math.floor(Math.random() * mobileBackgrounds) + 1;
-            this.customBackground.nativeElement.style.backgroundImage = `url('assets/mobileBackgrounds/home_page_${randomNumber}.jpg')`;
+            this.customBackground.nativeElement.style.backgroundImage = `url('assets/mobileBackgrounds/home_page_${randomNumber}.webp')`;
           }
         } else {
           this.customBackground.nativeElement.style.backgroundImage = 'none';
